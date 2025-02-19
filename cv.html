@@ -5,65 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículum de Nahuel</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="perfil">
-            <img src="tu-foto.jpg" alt="Foto de Nahuel">
+    <div class="container">
+        <header class="border">
+            <div class="profile-container">
+                <img class="logo" src="assets/images/nahuel2_optimized.webp" alt="Foto de Nahuel">
+            </div>
             <div class="presentacion">
                 <h1>Nahuel Hernandez</h1>
-                <p>Soy una persona que ha estado estudiando toda su vida sistemas / informática , he desarrollado una enorme pasión por la programación, antiguamente en c, c++ , c# , y actualmente en la parte del Front-End y Testing QA Manual
+            </div>
+            <h2 class="roles">Desarrollador Web Frontend • Tester</h2>
+        </header>
+    </div>
+    <div class="row">
+        <section class="border card about">
+            <h1 class="title">Sobre mi</h1>
+            <p class="text">  
+                Soy un apasionado de la informática y la programación, con años de experiencia explorando y dominando diversas tecnologías. Comencé mi camino en la programación con C, C++ y C#, y actualmente me especializo en desarrollo Frontend y Testing QA Manual. Me destaco por mi capacidad de aprendizaje rápido y una curiosidad constante por nuevas tecnologías.
 
-                    Aprendo y me adapto con rapidez ya que siempre tengo curiosidad y hambre de aprender cosas nuevas como también de mejorar en todo lo que hago.
-                    
-                    Espero poder mejorar mis habilidades con la practica y experiencia, como tambien con consejos y enseñanzas que pueda brindarme..</p>
-            </div>
-        </div>
-    </header>
+                Disfruto perfeccionando mis habilidades a través de la práctica y la experiencia, siempre buscando desafíos que impulsen mi crecimiento. Estoy abierto a nuevas oportunidades, colaboraciones y aprendizajes que me ayuden a evolucionar tanto profesional como personalmente. </p>
+        </section>
 
-    <section class="tecnologias">
-        <h2>Mis Tecnologías</h2>
-        <div class="tech-grid">
-            <div class="tech-item">
-                <img src="html.webp" alt="HTML5">
-                <p>HTML5</p>
+        <section class="border card about">
+            <h1 class="title">Skills</h1>
+        
+            <p class="subtitle">Programación</p>
+            <div class="tech">
+                <div class="tech-item programming">
+                    <i class="icon fa-brands fa-html5"></i>
+                    <p class="iconText">HTML5</p>
+                </div>
+                <div class="tech-item programming">
+                    <i class="icon fa-brands fa-css3-alt"></i>
+                    <p class="iconText">CSS3</p>
+                </div>
+                <div class="tech-item programming">
+                    <i class="icon fa-brands fa-sass"></i>
+                    <p class="iconText">Sass</p>
+                </div>
+                <div class="tech-item programming">
+                    <i class="icon fa-brands fa-bootstrap"></i>
+                    <p class="iconText">Bootstrap</p>
+                </div>
+                <div class="tech-item programming">
+                    <i class="icon fa-brands fa-js"></i>
+                    <p class="iconText">JavaScript</p>
+                </div>
+                <div class="tech-item programming">
+                    <i class="icon fa-brands fa-react"></i>
+                    <p class="iconText">React</p>
+                </div>
             </div>
-            <div class="tech-item">
-                <img src="css.webp" alt="CSS3">
-                <p>CSS3</p>
+        
+            <p class="subtitle">Testing</p>
+            <div class="tech">
+                <div class="tech-item testing">
+                    <i class="icon fa-solid fa-clipboard-check"></i>
+                    <p class="iconText">Testing Manual</p>
+                </div>
+                <div class="tech-item testing">
+                    <i class="icon fa-solid fa-vial"></i>
+                    <p class="iconText">Testing 2</p>
+                </div>
+                <div class="tech-item testing">
+                    <i class="icon fa-solid fa-robot"></i>
+                    <p class="iconText">Testing e2e</p>
+                </div>
             </div>
-            <div class="tech-item">
-                <img src="sass.gif" alt="Sass">
-                <p>Sass</p>
+        
+            <p class="subtitle">Herramientas</p>
+            <div class="tech">
+                <div class="tech-item tools">
+                    <i class="icon fa-brands fa-jira"></i>
+                    <p class="iconText">Jira</p>
+                </div>
+                <div class="tech-item tools">
+                    <i class="icon fa-brands fa-git-alt"></i>
+                    <p class="iconText">Git</p>
+                </div>
+                <div class="tech-item tools">
+                    <i class="icon fa-solid fa-paper-plane"></i>
+                    <p class="iconText">Postman</p>
+                </div>
             </div>
-            <div class="tech-item">
-                <img src="bootstrap.webp" alt="Bootstrap">
-                <p>Bootstrap</p>
-            </div>
-            <div class="tech-item">
-                <img src="js.webp" alt="JavaScript">
-                <p>JavaScript</p>
-            </div>
-            <div class="tech-item">
-                <img src="react.gif" alt="React">
-                <p>React</p>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <section class="contacto">
-        <h2>Contacto</h2>
-        <div class="contact-grid">
-            <div class="contact-item">
-                <img src="gmail.gif" alt="Email">
-                <p>nahueh17@gmail</p>
+        <section class="border card contact-section">
+            <h1 class="title">Contacto</h1>
+            <div class="contact-container">
+                <div class="contact-item">
+                    <i class="icon fa-solid fa-envelope"></i>
+                    <p class="iconText"><a href="mailto:nahueh17@gmail.com">nahueh17@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="icon fa-brands fa-linkedin"></i>
+                    <p class="iconText"><a href="https://www.linkedin.com/in/nahuel-hernandez-003aa1204" target="_blank">LinkedIn</a></p>
+                </div>
             </div>
-            <div class="contact-item">
-                <img src="linkedin.gif" alt="LinkedIn">
-                <p><a href="https://www.linkedin.com/in/nahuel-hernandez-003aa1204" target="_blank">Nahuel Hernández</a></p>
-            </div>
-            <!-- Agregar más redes aquí -->
-        </div>
-    </section>
+        </section>
+        
+    </div>
 </body>
 </html>
